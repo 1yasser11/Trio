@@ -137,8 +137,7 @@ platform :ios do
       export_method: "app-store",
       scheme: "Trio",
       output_name: "Trio.ipa",
-      configuration: "Release",
-      destination: 'generic/platform=iOS',
+      configuration: "Release"
       buildlog_path: 'buildlog'
     )
 
